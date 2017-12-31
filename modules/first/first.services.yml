@@ -1,0 +1,8 @@
+parameters:
+    dino.roar.use_key_value_cache: true
+services:
+    str.generator:
+        class: Drupal\first\Services\StrGenerator
+        arguments:
+            - '@keyvalue'
+            - '%%dino.roar.use_key_value_cache%'

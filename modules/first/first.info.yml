@@ -1,0 +1,5 @@
+name: First module
+type: module
+description: "My fist module"
+package: Sample
+core: 8.x

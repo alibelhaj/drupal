@@ -1,0 +1,6 @@
+first:
+    path: /first/module/{count}
+    defaults:
+        _controller: Drupal\first\Controller\DefaultController::index
+    requirements:
+        _permission: 'access content'
